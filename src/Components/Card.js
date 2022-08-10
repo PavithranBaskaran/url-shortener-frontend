@@ -17,7 +17,7 @@ function Card(props) {
         <h5 class="card-title">Total URL created : {props.info.length}</h5>
         <p class="card-text">Total number of clicks: {clickCount()} </p>
         <Link to={'/enterurl'} class="btn btn-primary">
-          View your URL's
+          View/Add your URL's
         </Link>
       </div>
     </div>
